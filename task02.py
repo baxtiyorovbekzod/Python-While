@@ -2,7 +2,8 @@
 parol="python123"
 while True:
     parol2=input("Parol kiriting:")
-    if parol==parol2:
+    result=parol.lower()==parol2.lower()
+    if result:
         print("Xush kelibsiz!")
         break
     else:
